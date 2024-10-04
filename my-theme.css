@@ -1,11 +1,12 @@
 /* Change the background of the entire Discord window */
 body {
-    background-image: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGg3bWF1M2VndHZ4NWZ5cXc0OXE5Zmpsc2RsZDUyN25vbmRkbnQwdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4EN7ftPs9mcljjdPZR/giphy-downsized-large.gif');
-    background-size: cover; /* Adjust this as needed */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-image: url('https://media.giphy.com/media/4EN7ftPs9mcljjdPZR/giphy.gif'); /* Use the direct link to the GIF */
+    background-size: cover; /* Adjusts the size of the GIF */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the GIF */
 }
 
-/* Optional: Change the background color for a better contrast */
+/* Optional: Add a semi-transparent background color for better contrast */
 .discord-background {
     background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
 }

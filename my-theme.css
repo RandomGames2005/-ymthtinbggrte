@@ -1,0 +1,11 @@
+/* Change the background of the entire Discord window */
+body {
+    background-image: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGg3bWF1M2VndHZ4NWZ5cXc0OXE5Zmpsc2RsZDUyN25vbmRkbnQwdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4EN7ftPs9mcljjdPZR/giphy-downsized-large.gif');
+    background-size: cover; /* Adjust this as needed */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+/* Optional: Change the background color for a better contrast */
+.discord-background {
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+}
